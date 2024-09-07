@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Contact Me</h1>
+        <hr>
+    </header>
+
+    <!-- Contact form starts -->
+    <form action="" method="post">
+        <div class="form-group">
+            <table>
+                <!-- Row for User Name -->
+                <tr>
+                    <td><label for="name">User Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br></td> <!-- Spacer row -->
+                </tr>
+
+                <!-- Row for User Email -->
+                <tr>
+                    <td><label for="email">User Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br></td> <!-- Spacer row -->
+                </tr>
+
+                <!-- Row for Age -->
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" name="age" min="0" max="120" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br></td> <!-- Spacer row -->
+                </tr>
+
+                <!-- Row for Gender -->
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <label><input type="checkbox" id="male" name="gender" value="male"> Male</label>
+                        <label><input type="checkbox" id="female" name="gender" value="female"> Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br></td> <!-- Spacer row -->
+                </tr>
+
+                <!-- Row for Message -->
+                <tr>
+                    <td><label for="message">Your Message:</label></td>
+                    <td><textarea id="message" name="message" rows="5" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><br></td> <!-- Spacer row -->
+                </tr>
+
+                <!-- Row for Submit and Reset buttons -->
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Send Message">
+                        <input type="reset" value="Clear All">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+
+    <!-- Footer section -->
+    <footer>
+        <hr>
+        <p>&copy; 2024 Shahd Mohsen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
